@@ -1,21 +1,22 @@
 # Olist E-Commerce Sales Analysis & Business Intelligence Dashboard
 
 ## Table of Contents
-- [Project Overview](#-Project-Overview)
-- [Objectives](#-Objective)
-- [Tech Stack](#️-Tech-Stack)
-- [Repository Structure](#-Repository-Structure)
-- [Project Workflow](#-Project-Workflow)
-- [Data Cleaning](#-data-cleaning)
-- [Exploratory Data Analysis](#-exploratory-data-analysis)
-- [Feature Engineering](#️-feature-engineering)
-- [Dashboard Overview](#-dashboard-overview)
-  - [Executive Overview](#1.-executive-overview)
-  - [Operational & Customer Insights](#2️2-operational--customer-insights)
-  - [Business Performance & Risk Analysis](#3️3-business-performance--risk-analysis)
-- [Key Business Insights](#-key-business-insights)
-- [Business Recommendations](#-business-recommendations)
-- [👩‍💻 Author](#-author)
+
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Tech Stack](#tech-stack)
+- [Repository Structure](#repository-structure)
+- [Project Workflow](#project-workflow)
+- [Data Cleaning](#data-cleaning)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Feature Engineering](#feature-engineering)
+- [Dashboard Overview](#dashboard-overview)
+  - [Executive Overview](#executive-overview)
+  - [Operational & Customer Insights](#operational--customer-insights)
+  - [Business Performance & Risk Analysis](#business-performance--risk-analysis)
+- [Key Business Insights](#key-business-insights)
+- [Business Recommendations](#business-recommendations)
+- [Author](#author)
 
 ## Project Overview
 This project presents an end-to-end analysis of the Olist Brazilian E-Commerce dataset using Python and Power BI. The objective was to transform raw transactional data into actionable business insights through data cleaning, exploratory data analysis (EDA), feature engineering, and interactive dashboard development.
@@ -29,15 +30,19 @@ The project demonstrates a complete analytics workflow, from preparing raw data 
 - Generate actionable insights and recommendations to support business decisions.
   
 ## Tech Stack
-- Category:	Tools
-- Programming: Python
-- Libraries:	Pandas, Matplotlib
-- Visualization:	Power BI
-- Environment: Jupyter Notebook
-- Data Source	Olist Brazilian E-Commerce Dataset
+
+| Category | Tools |
+|----------|-------|
+| Programming | Python |
+| Libraries | Pandas, Matplotlib |
+| Visualization | Power BI |
+| Environment | Jupyter Notebook |
+| Dataset | Olist Brazilian E-Commerce Dataset |
 
 ## Repository Structure
-### olist-ecommerce-sales-analysis
+
+```text
+olist-ecommerce-sales-analysis
 │
 ├── notebooks
 │   ├── Data Cleaning.ipynb
@@ -55,6 +60,7 @@ The project demonstrates a complete analytics workflow, from preparing raw data 
 ├── Business_Report.pdf
 │
 └── README.md
+```
 
 ## Project Workflow
 - Data Cleaning
@@ -100,7 +106,7 @@ Several business-oriented features were created to enhance analysis, including:
 ### Dashboard Overview
 The Power BI solution consists of three interactive dashboards.
 
-#### 1.Executive Overview
+### Executive Overview
 Provides a high-level summary of business performance through KPIs including:
 - Total Revenue
 - Total Orders
@@ -109,7 +115,7 @@ Provides a high-level summary of business performance through KPIs including:
 - Review Score
 - Delivery Performance
 
-#### 2.Operational & Customer Insights
+### Operational & Customer Insights
 Focuses on customer behavior and operational efficiency through:
 - Customer Review Distribution
 - Shipping Performance
@@ -118,7 +124,7 @@ Focuses on customer behavior and operational efficiency through:
 - Weekend vs Weekday Orders
 - Average Delivery Time by State
 
-#### 3.Business Performance & Risk Analysis
+### Business Performance & Risk Analysis
 Monitors operational risks and logistics using:
 - Cancellation Rate
 - Order Completion Rate
@@ -144,4 +150,4 @@ Monitors operational risks and logistics using:
 - Use seasonal sales trends for demand forecasting and inventory planning.
 
 ### Author
-## Jeba Perveen
+Jeba Perveen
